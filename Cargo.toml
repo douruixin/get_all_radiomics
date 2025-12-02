@@ -1,0 +1,9 @@
+[package]
+name = "get_all_radiomics"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+flate2 = "1.0"
+tar = "0.4"
+indicatif = "0.17"
