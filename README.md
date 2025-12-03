@@ -6,7 +6,7 @@ Automatically obtain all traditional radiomics and deep learning radiomics for W
 
 >科研离不开 python，但是需要的 python 环境却难以搭建，尤其 radiomics、pytorch 等等，不是装不上就是冲突不断，甚至影响整个操作系统环境
 
-与高峰共同研究，尝试在 windows 下安装和配置 python 科研环境，发现 radiomics 和 pytorch 跟很多常用的库，numpy、pandas 以及 matplotlib 等，在自身版本、其它库版本甚至 python 版本间都存在各式各样的冲突，稍不留神就会把环境搞砸，网上教程又鱼龙混杂，不是一键三联就是让你买课，亟需一种方便有效的手段或者方案，让大家从繁琐的环境配置中解脱出来，在自己的轻薄本甚至老笔记本电脑上也能轻轻松松的跑深度学习组学特征提取！
+一直在linux下工作，因科研团队需求，最近尝试在 windows 下安装和配置 python 科研环境，发现 radiomics 和 pytorch 跟很多常用的库，numpy、pandas 以及 matplotlib 等，在自身版本、其它库版本甚至 python 版本间都存在各式各样的冲突，稍不留神就会把环境搞砸，网上教程又鱼龙混杂，不是一键三联就是让你买课，亟需一种方便有效的手段或者方案，让大家从繁琐的环境配置中解脱出来，在自己的轻薄本甚至老笔记本电脑上也能轻轻松松的跑深度学习组学特征提取！
 
 经过阅读相关 dlr 文献，在现有传统影像组学特征提取代码的基础上扩展，编写了全自动配置环境及组学特征提取程序，源码已经公开在 github 上，对此感兴趣的人可以随时签出对源码进行审查和修改。
 
@@ -28,7 +28,8 @@ Automatically obtain all traditional radiomics and deep learning radiomics for W
 
 
 图3. case 目录下的文件结构：
-![[Pasted image 20251202194533.png]]
+
+<img width="225" height="106" alt="Pasted image 20251202194533" src="https://github.com/user-attachments/assets/f741eaaf-99b3-41d3-81af-4dadd439e5d5" />
 
 图4. 自动创建虚拟环境：
 ![[Pasted image 20251202195407.png]]
