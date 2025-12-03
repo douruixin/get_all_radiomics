@@ -19,12 +19,13 @@ Automatically obtain all traditional radiomics and deep learning radiomics for W
 三、在程序项目所在目录，双击执行  get_all_radiomics.exe，程序会自动创建虚拟环境，如图4，并自动提取每一个病例的传统组学特征和深度学习组学特征，特征数据分别保存在各自病例目录下，传统组学特征包括约900个特征，深度学习组学特征通过 ResNet 18 激活层获取 1024 维的特征，如有更高维的需求，可以选择 ResNet50、DenseNet121 以及 Transformer 等模型获取特征。
 
 图1. 目录结构如下：
+
 <img width="346" height="129" alt="Pasted image 20251202194345" src="https://github.com/user-attachments/assets/3e725f33-89a3-4d20-89a6-ca1981b0cbf2" />
 
-![[Pasted image 20251202194345.png]]
-
 图2. data 目录下的文件结构：
-![[Pasted image 20251202194459.png]]
+
+<img width="412" height="86" alt="Pasted image 20251202194459" src="https://github.com/user-attachments/assets/716bc8c0-e4a0-43c7-a366-3f5c1b015ebb" />
+
 
 图3. case 目录下的文件结构：
 ![[Pasted image 20251202194533.png]]
