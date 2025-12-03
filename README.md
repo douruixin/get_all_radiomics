@@ -44,7 +44,9 @@ Automatically obtain all traditional radiomics and deep learning radiomics for W
 
 ### 自动程序带来的好处
 1、该自动程序仅在用户目录下创建虚拟环境，不会对系统有任何更改
+
 2、程序会全自动配置环境，避免了 python 或者 anaconda 安装及配置的痛苦
+
 3、按照前述对病例数据目录和文件名的要求，程序会全自动提取全部传统影像组学特征和深度学习组学特征，并自动将特征数据保存在各自病例目录下，全程无需人为干预！
 
 已编译的程序及虚拟环境由于体积较大，请在 github 上留言索取！
