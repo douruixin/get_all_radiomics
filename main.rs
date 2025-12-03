@@ -53,7 +53,7 @@ fn default_output_dir() -> io::Result<PathBuf> {
 }
 
 fn main() -> io::Result<()> {
-    let tar_path = Path::new("env.tar.gz");
+    let tar_path = Path::new("radiomics.env");
     let output_dir = default_output_dir()?;
 
     // 记录用户当前工作目录，用于解析 data 目录
