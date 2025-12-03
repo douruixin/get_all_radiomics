@@ -26,18 +26,21 @@ Automatically obtain all traditional radiomics and deep learning radiomics for W
 
 <img width="412" height="86" alt="Pasted image 20251202194459" src="https://github.com/user-attachments/assets/716bc8c0-e4a0-43c7-a366-3f5c1b015ebb" />
 
-
 图3. case 目录下的文件结构：
 
 <img width="225" height="106" alt="Pasted image 20251202194533" src="https://github.com/user-attachments/assets/f741eaaf-99b3-41d3-81af-4dadd439e5d5" />
 
 图4. 自动创建虚拟环境：
-![[Pasted image 20251202195407.png]]
+
+<img width="796" height="157" alt="Pasted image 20251202195407" src="https://github.com/user-attachments/assets/a2c4b8fe-d14b-467e-8368-1e1c14479fe1" />
 
 图5. 自动提取传统影像组学特征和深度学习组学特征，并保存在各自病例目录下：
-![[Pasted image 20251202200904.png]]
-![[Pasted image 20251202201340.png]]
-![[Pasted image 20251202200954.png]]
+
+<img width="973" height="170" alt="Pasted image 20251202200904" src="https://github.com/user-attachments/assets/967a911f-d16e-491c-8656-1f3feb6c24b7" />
+
+<img width="426" height="113" alt="Pasted image 20251202200954" src="https://github.com/user-attachments/assets/221eea74-7e2a-4ff2-8b70-543e9dd5024f" />
+
+<img width="1438" height="715" alt="Pasted image 20251202201340" src="https://github.com/user-attachments/assets/d2aa98ad-eb66-435e-af12-40dfe8e9b4df" />
 
 ### 自动程序带来的好处
 1、该自动程序仅在用户目录下创建虚拟环境，不会对系统有任何更改
@@ -45,6 +48,6 @@ Automatically obtain all traditional radiomics and deep learning radiomics for W
 3、按照前述对病例数据目录和文件名的要求，程序会全自动提取全部传统影像组学特征和深度学习组学特征，并自动将特征数据保存在各自病例目录下，全程无需人为干预！
 
 Github: https://github.com/douruixin/get_all_radiomics
-已编译的程序及虚拟环境由于体积较大，请在 github 上留言或发邮件索取！
+已编译的程序及虚拟环境由于体积较大，请在 github 上留言索取！
 
-由于是在 linux 下编译的 windows 程序，遇到问题请联系: douruixin@foxmail.com
+由于是在 linux 下编译的 windows 程序，遇到问题请留言或联系作者！
